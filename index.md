@@ -4,8 +4,12 @@
 
 This lab was out intro to webservers and using fastify. 
 We created a fastify web server that displayed text on the webpage.       
-We were then able to parse the url request parameters to update the webpage text.
-## Code: 
+We were then able to parse the url request parameters to update the webpage text.   
+   
+**[lab 04 Repo](https://github.com/UO-CIT-Myles-P-D/cit281-lab04)**
+   
+## Code:    
+   
 **[Here](https://github.com/Myles-P-D/cit281-lab04/blob/main/lab-04.js)** is the full code and below is an excerpt of creating the webserver.
 ```javascript
 const fastify = require("fastify")();
@@ -30,7 +34,8 @@ fastify.get("/name", (request, reply) => {
   });
   ```
 
-## Images: 
+## Images:    
+    
 Here is an image of the webpage displaying text for an unidentified user.   
     
     
